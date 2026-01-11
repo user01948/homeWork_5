@@ -1,0 +1,876 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.header button
+{
+    padding: 15px 30px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    gap: 20px;
+}
+.header
+{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.left_list
+{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.listt
+{
+    display: flex;
+    gap: 30px;
+}
+.secblue
+{
+    background-color: #B3D2FF;
+}
+.glavni
+{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.row
+{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.left button
+{
+    padding: 15px 30px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border: none;
+    width: 60%;
+}
+.right
+{
+    position: relative;
+    height: 700px;
+}
+.left
+{
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+.left h1
+{
+    font-size: 54px;
+}
+.andreyfoto
+{
+    height: 100%;
+}
+.list_card p
+{
+    color: grey;
+    font-size: 12px;
+}
+.card
+{
+    display: flex;
+    top: 360px;
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+}
+.andrey
+{
+    position: absolute;
+    top: 530px;
+    left: 150px;
+    padding: 20px;
+    border-radius: 70px;
+    background-color: #071C3B;
+    color: white;
+    font-size: 20px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fa-bars
+{
+    display: none;
+}
+.sec2
+{
+    max-width: 1200px;
+    margin: auto;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 50px;
+}
+.cards
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 30px;
+    justify-content: space-between;
+}
+.item
+{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    width: 12%;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgb(168, 183, 201);
+}
+.item1
+{
+    display: flex;
+    flex-direction: column;
+    background-color: #071C3B;
+    color: white;
+    row-gap: 20px;
+    width: 12%;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgb(152, 171, 196);
+}
+.item p
+{
+    font-size: 10px;
+}
+.item1 p
+{
+    font-size: 10px;
+}
+.col
+{
+    display: flex;
+    gap: 10px;
+}
+.sec3
+{
+    max-width: 1200px;
+    margin: auto;
+}
+.divcha
+{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.sec3_left
+{
+    border: 2px solid rgb(202, 202, 202);
+    padding: 30px;
+    border-radius: 15px;
+    width: 44%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    margin-top: 30px;
+}
+.divcha
+{
+    padding: 15px;
+    color: gray;
+}
+.flexbox
+{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.flexdivcha
+{
+    padding: 15px 0px;
+}
+.listcabut
+{
+    background-color: #071C3B;
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+.sec4
+{
+    background-color: #F0F9FF;
+    height: 712px;
+    margin-top: 100px;
+    padding-top: 120px;
+}
+.vopros
+{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+}
+.joo
+{   
+    height: 100%;
+}
+.mayda1
+{
+    padding: 10px;
+    border: 2px solid #071C3B;
+    border-radius: 10px;
+    width: 20px;
+}
+.fl button
+{
+    padding: 10px 40px;
+    background-color: #071C3B;
+    color: white;
+    border-radius: 10px;
+}
+.fl
+{
+    display: flex;
+    gap: 10px;
+    justify-content: start;
+    width: 65%;
+}
+.jooleft
+{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    row-gap: 30px;
+    font-size: 20px;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+.joo
+{
+    background-color: white;
+    height: 532px;
+    box-shadow: 0px 0px 15px rgb(202, 202, 202);
+    border-radius: 10px;
+    width: 1420px;
+    display: flex;
+    position: relative;
+}
+.blueright
+{
+    width: 580px;
+    height: 100%;
+    background-color: #071C3B;
+    padding: 0px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.blueright h1
+{
+    padding: 100px 100px;
+    width: 394px;
+}
+.blueright p
+{
+    padding: 0px 100px;
+}
+.rac1
+{
+    position: absolute;
+    top: 34px;
+    left: 30px;
+}
+.rac2
+{
+    position: absolute;
+    top: 153px;
+    left: 30px;
+}
+.rac3
+{
+    position: absolute;
+    top: 272px;
+    left: 30px;
+}
+.rac4
+{
+    position: absolute;
+    top: 391px;
+    left: 30px;
+}
+.sec5
+{
+    max-width: 1200px;
+    margin: auto;
+}
+.iioi
+{
+    width: 100%;
+    margin-top: 100px;
+}
+.nonee
+{
+    display: none;
+}
+.sec6
+{
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+}
+.wrapdiv
+{
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.div1
+{
+    width: 50%;
+    box-shadow: 0px 0px 15px gray;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    height: 326px;
+}
+.div2
+{
+    width: 38%;
+    box-shadow: 0px 0px 15px gray;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    height: 273px;
+}
+.div3
+{
+    width: 21.5%;
+    box-shadow: 0px 0px 15px gray;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+}
+.div4
+{
+    width: 38%;
+    box-shadow: 0px 0px 15px gray;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    height: 225px;
+    margin-top: -50px;
+}
+.listflex
+{
+    display: flex;
+    gap: 100px;
+    padding-top: 30px;
+}
+.l2
+{
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+.l1
+{
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+.l3
+{
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+}
+.sec7
+{
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 100px;
+}
+.v11
+{
+    display: none;
+}
+.mardak
+{
+    width: 100%;
+}
+.v2
+{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.zank
+{
+    width: 93%;
+}
+.videos
+{
+    display: flex;
+    margin-top: 30px;
+}
+.sec7
+{
+    max-width: 1200px;
+    margin: auto;
+}
+.bluesec
+{
+    background-color: #F0F9FF;
+    margin-top: 100px;
+}
+.carddd
+{
+    width: 463px;
+    height: 272px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px rgb(200, 200, 200);
+}
+.flexbox99
+{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.list
+{
+    flex-direction: column;
+    padding: 50px;
+}
+.sec8
+{
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+}
+.images
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 30px;
+}
+.sec9
+{
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+}
+.kkk
+{
+    width: 100%;
+    background-color: #071C3B;
+    height: 400px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgb(107, 107, 107);
+}
+.tt1
+{
+    width: 100%;
+    height: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ii
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 30px;
+}
+.jj
+{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+.jj button
+{
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+}
+.dd
+{
+    width: 60%;
+    height: 100%;
+    background-color: white;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    color: #071C3B;
+}
+.dd h2
+{
+    padding: 50px 55px;
+}
+.sec10
+{
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 200px;
+}
+.profils
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.prof1
+{
+    width: 460px;
+    height: 811px;
+    background-color: white;
+    box-shadow: 0px 0px 15px rgb(192, 192, 192);
+    border-radius: 15px;
+    width: 460px;
+}
+.proflist
+{
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+.footer
+{
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 100px 100px;
+}
+.listfooter
+{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.form
+{
+    padding: 50px;
+    background-color: #071C3B;
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+    color: white;
+    border-radius: 10px;
+}
+.inp input
+{
+    padding: 15px 30px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    width: 30%;
+}
+.inp
+{
+    display: flex;
+    gap: 20px;
+}
+.form button
+{
+    padding: 15px 20px;
+    border: 2px solid white;
+    width: 30%;
+    background-color: #071C3B;
+    color: white;
+    border-radius: 5px;
+}
+.flexfooter
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 500px)
+{
+    .header .listt
+    {
+        display: none;
+    }
+    .header button
+    {
+        display: none;
+    }
+    .fa-bars
+    {
+        display: block;
+    }
+    .glavni
+    {
+        flex-direction: column;
+        row-gap: 30px;
+    }
+    .andreyfoto
+    {
+        width: 100%;
+    }
+    .header
+    {
+        padding: 30px;
+    }
+    .secblue
+    {
+        padding: 30px;
+    }
+    .cards
+    {
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+    .cards .item
+    {
+        width: 80%;
+    }
+    .cards .item1
+    {
+        width: 80%;
+    }
+    .item p
+    {
+        font-size: 16px;
+    }
+    .sec2
+    {
+        margin-top: 900px;
+    }
+    .proc
+    {
+        padding: 30px;
+    }
+    .flexbox
+    {
+        flex-direction: column;
+    }
+    .sec3
+    {
+        margin-top: 950px;
+        text-align: center;
+    }
+    .sec3_left
+    {
+        width: 75%;
+    }
+    .rost
+    {
+        width: 90%;
+    }
+    .joo svg
+    {
+        display: none;
+    }
+    .joo
+    {
+        flex-direction: column-reverse;
+        width: 100%;
+        height: 800px;
+    }
+    .blueright
+    {
+        width: 100%;
+        padding: 30px 0px;
+    }
+    .blueright h1
+    {
+        padding: 0px 30px;
+        width: 80%;
+    }
+    .blueright p
+    {
+        padding: 50px 30px;
+    }
+    .sec4
+    {
+        width: 100%;
+    }
+    .nonee
+    {
+        display: block;
+        margin: auto;
+        margin-top: 140px;
+    }
+    .iioi
+    {
+        display: none;
+    }
+    .wrapdiv
+    {
+        flex-direction: column;
+    }
+    .wrapdiv div
+    {
+        width: 80%;
+        margin: auto;
+    }
+    .div4
+    {
+        margin-top: 0px;
+    }
+    .sec6 h1
+    {
+        text-align: center;
+    }
+    .v2
+    {
+        display: none;
+    }
+    .v11
+    {
+        display: block;
+    }
+    .videos
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .sec7 h1
+    {
+        text-align: center;
+    }
+    .flexbox99
+    {
+        flex-direction: column;
+    }
+    .carddd
+    {
+        width: 90%;
+    }
+    #jdhd
+    {
+        text-align: center;
+    }
+    .no
+    {
+        display: none;
+    }
+    .listflex
+    {
+        gap: 60px;
+    }
+    .yes
+    {
+        width: 100%;
+    }
+    .sec8
+    {
+        text-align: center;
+        padding: 20px;
+    }
+    .dd h2
+    {
+        padding: 20px;
+    }
+    .tt1
+    {
+        flex-direction: column;
+    }
+    .dd
+    {
+        width: 100%;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        margin-top: 30px;
+    }
+    .tt1
+    {
+        justify-content: space-evenly;
+    }
+    .kkk
+    {
+        height: 500px;
+    }
+    .jj button
+    {
+        padding: 10px;
+        width: 90%;
+        margin: auto;
+    }
+    .jj
+    {
+        padding: 20px;
+    }
+    .profils
+    {
+        flex-direction: column;
+    }
+    .prof1
+    {
+        width: 100%;
+    }
+    .sec10
+    {
+        padding: 20px;
+    }
+    .hddd
+    {
+        width: 100%;
+    }
+    .flexfooter
+    {
+        flex-direction: column;
+    }
+    .listfooter
+    {
+        padding: 20px 0px;
+    }
+    .footer
+    {
+        padding: 10px;
+        margin-top: 30px;
+    }
+    .form button
+    {
+        width: 50%;
+    }
+}
